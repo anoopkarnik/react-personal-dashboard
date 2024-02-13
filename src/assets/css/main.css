@@ -1,0 +1,61 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  
+}
+
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+}
+
+.bg-primary-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+.dark .dark\:bg-primary-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 32 42 / var(--tw-bg-opacity));
+}
+
+.bg-secondary-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.dark .dark\:bg-secondary-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 47 62 / var(--tw-bg-opacity));
+}
+
+.bg-ternary-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 246 250 / var(--tw-bg-opacity));
+}
+.dark .dark\:bg-ternary-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 64 80 / var(--tw-bg-opacity));
+}
+
+.bg-quartary-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 47 62 / var(--tw-bg-opacity));
+}
+.dark .dark\:bg-quartary-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 47 62 / var(--tw-bg-opacity));
+}
+
+.text-primary-light {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.dark .dark\:text-primary-dark {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/ var(--tw-text-opacity));
+}
+
+.text-secondary-light {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
